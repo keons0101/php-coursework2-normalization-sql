@@ -27,3 +27,11 @@ Possible candidate keys for EMPLOYEE_RAW are:
 
 Both attributes can uniquely identify an employee record.
 EmployeeID is chosen as the primary key because it is more permanent and easier to manage than EmployeeEmail.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# FUNCTIONAL DEPENDENCIES
+
+- EmployeeID -> EmployeeName, EmployeeEmail, JobTitle, Salary, HireDate, DepartmentCode
+- EmployeeEmail -> EmployeeID, EmployeeName, JobTitle, Salary, HireDate, DepartmentCode
+- DepartmentCode -> DepartmentName, LocationID
+- LocationID -> City
