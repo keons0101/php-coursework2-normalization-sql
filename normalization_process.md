@@ -20,7 +20,7 @@ Department and location data are stored repeatedly for multiple employees, so th
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # CANDIDATE KEYS
 
-Possible candidate keys for EMPLOYEE_RAW are:
+Candidate keys for EMPLOYEE_RAW are:
 
 - EmployeeID
 - EmployeeEmail
