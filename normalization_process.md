@@ -4,6 +4,7 @@
 EMPLOYEE_RAW(
     EmployeeID,
     EmployeeName,
+    EmployeeEmail,
     JobTitle,
     Salary,
     HireDate,
@@ -18,3 +19,11 @@ Department and location data are stored repeatedly for multiple employees, so th
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # CANDIDATE KEYS
+
+Possible candidate keys for EMPLOYEE_RAW are:
+
+- EmployeeID
+- EmployeeEmail
+
+Both attributes can uniquely identify an employee record.
+EmployeeID is chosen as the primary key because it is more permanent and easier to manage than EmployeeEmail.
