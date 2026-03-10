@@ -102,3 +102,27 @@ Each relation now represents a single theme:
 - LOCATION stores location data
 
 The transitive dependencies have been removed, so now it is in 3NF.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# FINAL RELATIONS
+
+LOCATION(
+    LocationID PK,
+    City
+)
+
+DEPARTMENT(
+    DepartmentCode PK,
+    DepartmentName,
+    LocationID FK
+)
+
+EMPLOYEE(
+    EmployeeID PK,
+    EmployeeName,
+    EmployeeEmail,
+    JobTitle,
+    Salary,
+    HireDate,
+    DepartmentCode FK
+)
